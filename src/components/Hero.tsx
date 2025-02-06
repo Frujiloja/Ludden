@@ -12,26 +12,32 @@ const Hero = () => {
               <span className="text-primary">experiencias digitales</span>
             </h1>
             <p className="text-xl text-gray-600">
-              Desarrollamos sitios web y aplicaciones que impulsan el crecimiento de tu negocio
+              Desarrollamos sitios web y aplicaciones que impulsan el crecimiento de tu negocio con las últimas tecnologías
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="gap-2">
+              <Button size="lg" className="gap-2 bg-primary hover:bg-primary/90">
                 <MessageSquare className="h-5 w-5" />
-                Agendar consulta
-              </Button>
-              <Button size="lg" variant="outline">
-                Ver portfolio
+                Agenda tu demo
               </Button>
             </div>
           </div>
           <div className="relative">
-            <img
-              src="/lovable-uploads/a5324c12-1fa7-46e3-afa9-ea774d4c3ee0.png"
-              alt="Desarrollo web profesional"
-              className="rounded-lg shadow-2xl"
-            />
+            <div className="relative z-10">
+              <img
+                src="/lovable-uploads/4f37b24f-cf7b-4c7e-84c0-028eacd7abb6.png"
+                alt="Desarrollo web profesional"
+                className="w-full h-auto rounded-lg shadow-2xl"
+              />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-lg blur-3xl -z-10" />
           </div>
         </div>
+      </div>
+      
+      {/* Decorative elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-1/2 -right-1/2 w-full h-full bg-gradient-to-b from-blue-50/50 to-transparent transform rotate-12" />
+        <div className="absolute -bottom-1/2 -left-1/2 w-full h-full bg-gradient-to-t from-blue-50/50 to-transparent transform -rotate-12" />
       </div>
     </div>
   );

@@ -32,7 +32,7 @@ const Testimonials = () => {
               className="p-8 rounded-lg bg-white border hover:shadow-lg transition-shadow"
             >
               <div className="flex items-center mb-6">
-                <div className="bg-primary rounded-full p-2 mr-4">
+                <div className="bg-[#6137e7] rounded-full p-2 mr-4">
                   <User className="h-6 w-6 text-white" />
                 </div>
                 <div>

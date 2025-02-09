@@ -4,9 +4,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">
-              Web<span className="text-primary">Dev</span>Pro
-            </h3>
+            <img src="/logoLuddenB.png" alt="" />
             <p className="text-gray-400">
               Transformando ideas en experiencias digitales excepcionales
             </p>
@@ -15,17 +13,17 @@ const Footer = () => {
             <h4 className="font-bold mb-4">Servicios</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="#servicios" className="text-gray-400 hover:text-white">
                   Desarrollo Web
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="#servicios" className="text-gray-400 hover:text-white">
                   Diseño UI/UX
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="#servicios" className="text-gray-400 hover:text-white">
                   SEO & Marketing
                 </a>
               </li>
@@ -35,18 +33,21 @@ const Footer = () => {
             <h4 className="font-bold mb-4">Empresa</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a
+                  href="#highlights"
+                  className="text-gray-400 hover:text-white"
+                >
                   Sobre Nosotros
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  Contacto
+                <a
+                  href="https://wa.me/+541157719725" // Reemplaza con tu número de WhatsApp
+                  target="_blank"
+                  className="text-gray-400 hover:text-white"
+                  rel="noopener noreferrer"
+                >
+                  Contactanos
                 </a>
               </li>
             </ul>
@@ -54,7 +55,7 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-4">Contacto</h4>
             <ul className="space-y-2">
-              <li className="text-gray-400">info@webdevpro.com</li>
+              <li className="text-gray-400">info@gmail.com</li>
               <li className="text-gray-400">+1 (555) 123-4567</li>
               <li className="text-gray-400">
                 123 Tech Street, Digital City, DC 12345
@@ -63,7 +64,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 WebDevPro. Todos los derechos reservados.</p>
+          <p>&copy; 2025 Ludden. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

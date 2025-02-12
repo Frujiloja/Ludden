@@ -2,14 +2,14 @@ const Footer = () => {
   return (
     <footer className="bg-secondary text-white py-12">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-4 gap-8">
-          <div>
-            <img src="/logoLuddenB.png" alt="" />
-            <p className="text-gray-400">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="text-center md:text-left">
+            <img src="/logoLuddenB.png" alt="Logo Ludden" className="mx-auto md:mx-0 ml-3" />
+            <p className="text-gray-400 mt-4">
               Transformando ideas en experiencias digitales excepcionales
             </p>
           </div>
-          <div>
+          <div className="text-center md:text-left">
             <h4 className="font-bold mb-4">Servicios</h4>
             <ul className="space-y-2">
               <li>
@@ -29,14 +29,11 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="text-center md:text-left">
             <h4 className="font-bold mb-4">Empresa</h4>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#highlights"
-                  className="text-gray-400 hover:text-white"
-                >
+                <a href="#highlights" className="text-gray-400 hover:text-white">
                   Sobre Nosotros
                 </a>
               </li>
@@ -52,13 +49,12 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="text-center md:text-left">
             <h4 className="font-bold mb-4">Contacto</h4>
             <ul className="space-y-2">
-              <li className="text-gray-400">info@gmail.com</li>
-              <li className="text-gray-400">+1 (555) 123-4567</li>
+              <li className="text-gray-400">ludden@gmail.com</li>
               <li className="text-gray-400">
-                123 Tech Street, Digital City, DC 12345
+                Buenos Aires, Argentina
               </li>
             </ul>
           </div>

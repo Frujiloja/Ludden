@@ -20,12 +20,12 @@ const Index = () => {
       <Testimonials />
       <FAQ />
       <Footer />
-      <a href="#home" className="fixed bottom-28 right-8">
-        <img src="arrow.png" alt="arrow icon" className="h-12 w-12" />
+      <a href="#home" className="fixed bottom-28 right-8 z-30">
+        <img src="arrow.png" alt="arrow icon" className="h-12 w-12 z-30" />
       </a>
       <a
         href="https://wa.me/+541157719725" // Reemplaza con tu número de WhatsApp
-        className="fixed bottom-8 right-5 bg-green-500 text-white p-3 rounded-full shadow-lg"
+        className="fixed bottom-8 right-5 bg-green-500 text-white p-3 rounded-full shadow-lg z-30"
         target="_blank"
         rel="noopener noreferrer"
       >

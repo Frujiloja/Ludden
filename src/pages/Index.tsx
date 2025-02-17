@@ -29,7 +29,7 @@ const Index = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="/download.png" alt="WhatsApp" className="h-12 w-12" />
+        <img src="/whatsapp ludden.png" alt="WhatsApp Ludden Tech" className="h-12 w-12" />
       </a>
     </div>
   );

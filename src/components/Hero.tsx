@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <div className="relative min-h-screen mt-28" id="home">
       {/* Background with gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#221F26] to-[#403E43] z-0 w-[90vw] mx-auto rounded-3xl shadow-xl overflow-hidden">
-        <img src="/Hero.jpg" alt="" className="w-full h-full object-cover" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#221F26] to-[#403E43] z-0 w-[88vw] mx-auto rounded-3xl shadow-xl overflow-hidden">
+        <img src="/LuddenPaginasWebBanner.jpg" alt="Ludden Paginas Web" className="w-full h-full object-cover" />
       </div>
 
       {/* Content */}
@@ -39,8 +39,8 @@ const Hero = () => {
           </div>
           <div className="md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0">
             <img
-              src="/mockup2.png"
-              alt="Mockup de celular"
+              src="/PaginasWebLudden.png"
+              alt="Paginas Web Ludden"
               className="w-3/4 sm:w-3/4 md:w-3/4 max-w-md md:max-w-lg"
             />
           </div>

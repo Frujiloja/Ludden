@@ -10,8 +10,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav id="navbar" className="fixed top-0 left-0 right-0 bg-white backdrop-blur-md z-50">
-      <div className="mx-10 md:px-4">
+    <nav id="navbar" className="fixed top-0 left-0 right-0 bg-white backdrop-blur-md z-50 flex justify-center ">
+      <div className=" w-[88vw] mx-10 md:px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
             <a href="#home" className="text-2xl font-bold text-primary">

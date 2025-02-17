@@ -1,10 +1,16 @@
+import { FaInstagram } from "react-icons/fa";
+
 const Footer = () => {
   return (
-    <footer className="bg-secondary text-white py-12">
+    <footer className="bg-black text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="text-center md:text-left">
-            <img src="/logoLuddenB.png" alt="Logo Ludden" className="mx-auto md:mx-0 ml-3" />
+            <img
+              src="/logoLuddenB.png"
+              alt="Logo Ludden"
+              className="mx-auto md:mx-0 ml-3"
+            />
             <p className="text-gray-400 mt-4">
               Transformando ideas en experiencias digitales excepcionales
             </p>
@@ -33,7 +39,10 @@ const Footer = () => {
             <h4 className="font-bold mb-4">Empresa</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#highlights" className="text-gray-400 hover:text-white">
+                <a
+                  href="#highlights"
+                  className="text-gray-400 hover:text-white"
+                >
                   Sobre Nosotros
                 </a>
               </li>
@@ -53,14 +62,21 @@ const Footer = () => {
             <h4 className="font-bold mb-4">Contacto</h4>
             <ul className="space-y-2">
               <li className="text-gray-400">ludden@gmail.com</li>
-              <li className="text-gray-400">
-                Buenos Aires, Argentina
-              </li>
+              <li className="text-gray-400">Buenos Aires, Argentina</li>
             </ul>
+            <a
+              href="https://www.instagram.com/luddentech/" // Reemplaza con tu URL de Instagram
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4"
+            >
+              <FaInstagram className="text-2xl text-[#6137e7] hover:text-[#7c5de4]" />
+            </a>
           </div>
         </div>
         <div className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
           <p>&copy; 2025 Ludden. Todos los derechos reservados.</p>
+          <p className="text-gray-500">Powered by Ludden</p>
         </div>
       </div>
     </footer>
